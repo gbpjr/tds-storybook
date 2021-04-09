@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Paper, IconButton, Chip } from '@material-ui/core';
-import FilterListIcon from '@material-ui/icons/FilterList';
+import { makeStyles } from '@material-ui/core/styles'
+import { Grid, Paper, IconButton, Chip } from '@material-ui/core'
+import FilterListIcon from '@material-ui/icons/FilterList'
 
 const useStyles = makeStyles((theme) => ({
   filterBar: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function FilterBar() {
+const FilterBar = () => {
   // const filters = [
   //   'Empresa',
   //   'Ativo'
@@ -66,3 +66,5 @@ export default function FilterBar() {
     </div>
   )
 }
+
+export default FilterBar

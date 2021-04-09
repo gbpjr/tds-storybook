@@ -1,3 +1,3 @@
-import FilterBar from './components/FilterBar.js'
+import FilterBar from './components/FilterBar'
 
 export default FilterBar
