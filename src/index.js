@@ -1,5 +1,1 @@
-import FilterBar from './components/FilterBar'
-
-module.exports = {
-  FilterBar: FilterBar
-}
+export * from './components/FilterBar'
