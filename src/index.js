@@ -1,1 +1,3 @@
-export * from './components/FilterBar'
+import FilterBar from './components/FilterBar'
+
+export default FilterBar

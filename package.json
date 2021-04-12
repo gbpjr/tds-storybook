@@ -2,7 +2,7 @@
   "name": "tds-storybook",
   "description": "TDS Storybook Components",
   "main": "dist/index.js",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "files": [
     "dist/"
