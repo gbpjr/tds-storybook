@@ -1,13 +1,11 @@
 {
   "name": "tds-storybook",
   "description": "TDS Storybook Components",
-  "main": "dist/index.js",
-  "version": "0.2.0",
+  "main": "dist",
+  "version": "0.2.1",
   "private": false,
   "module": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/gbpjr/tds-storybook.git"
