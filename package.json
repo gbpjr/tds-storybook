@@ -2,11 +2,16 @@
   "name": "tds-storybook",
   "description": "TDS Storybook Components",
   "main": "dist/index.js",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "private": false,
+  "module": "dist/index.js",
   "files": [
-    "dist/"
+    "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbpjr/tds-storybook.git"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
