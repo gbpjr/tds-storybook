@@ -1,3 +1,5 @@
 import FilterBar from './components/FilterBar'
 
-export { FilterBar }
+module.exports = {
+  FilterBar: FilterBar
+}
